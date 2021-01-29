@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1090702025BACD8000065CA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1090701F25BACD8000065CA2 /* AppDelegate.swift */; };
+		1090702225BACD8000065CA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1090702125BACD8000065CA2 /* SceneDelegate.swift */; };
+		1090702425BACD8000065CA2 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1090702325BACD8000065CA2 /* LocationVC.swift */; };
+		1090702725BACD8000065CA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1090702525BACD8000065CA2 /* Main.storyboard */; };
+		1090702925BACD8100065CA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1090702825BACD8100065CA2 /* Assets.xcassets */; };
+		1090702C25BACD8100065CA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1090702A25BACD8100065CA2 /* LaunchScreen.storyboard */; };
+		10E67C6125BEA49500C6B53C /* Silom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10E67C6025BEA49500C6B53C /* Silom.ttf */; };
+		10E67C6425BEA6FA00C6B53C /* icon_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E67C6325BEA6FA00C6B53C /* icon_background.png */; };
+		10E67C6825BEABB000C6B53C /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E67C6725BEABB000C6B53C /* MapVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1090701C25BACD8000065CA2 /* Klimov_maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klimov_maps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1090701F25BACD8000065CA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1090702125BACD8000065CA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1090702325BACD8000065CA2 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		1090702625BACD8000065CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1090702825BACD8100065CA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1090702B25BACD8100065CA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1090702D25BACD8100065CA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10E67C6025BEA49500C6B53C /* Silom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silom.ttf; sourceTree = "<group>"; };
+		10E67C6325BEA6FA00C6B53C /* icon_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_background.png; sourceTree = "<group>"; };
+		10E67C6725BEABB000C6B53C /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1090701925BACD8000065CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1090701325BACD8000065CA2 = {
+			isa = PBXGroup;
+			children = (
+				1090701E25BACD8000065CA2 /* Klimov_maps */,
+				1090701D25BACD8000065CA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1090701D25BACD8000065CA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1090701C25BACD8000065CA2 /* Klimov_maps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1090701E25BACD8000065CA2 /* Klimov_maps */ = {
+			isa = PBXGroup;
+			children = (
+				1090701F25BACD8000065CA2 /* AppDelegate.swift */,
+				1090702125BACD8000065CA2 /* SceneDelegate.swift */,
+				1090702325BACD8000065CA2 /* LocationVC.swift */,
+				10E67C6725BEABB000C6B53C /* MapVC.swift */,
+				1090702525BACD8000065CA2 /* Main.storyboard */,
+				1090702825BACD8100065CA2 /* Assets.xcassets */,
+				10E67C6325BEA6FA00C6B53C /* icon_background.png */,
+				10E67C5F25BEA26400C6B53C /* Font */,
+				1090702A25BACD8100065CA2 /* LaunchScreen.storyboard */,
+				1090702D25BACD8100065CA2 /* Info.plist */,
+			);
+			path = Klimov_maps;
+			sourceTree = "<group>";
+		};
+		10E67C5F25BEA26400C6B53C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				10E67C6025BEA49500C6B53C /* Silom.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1090701B25BACD8000065CA2 /* Klimov_maps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1090703025BACD8100065CA2 /* Build configuration list for PBXNativeTarget "Klimov_maps" */;
+			buildPhases = (
+				1090701825BACD8000065CA2 /* Sources */,
+				1090701925BACD8000065CA2 /* Frameworks */,
+				1090701A25BACD8000065CA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Klimov_maps;
+			productName = Klimov_maps;
+			productReference = 1090701C25BACD8000065CA2 /* Klimov_maps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1090701425BACD8000065CA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					1090701B25BACD8000065CA2 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 1090701725BACD8000065CA2 /* Build configuration list for PBXProject "Klimov_maps" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1090701325BACD8000065CA2;
+			productRefGroup = 1090701D25BACD8000065CA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1090701B25BACD8000065CA2 /* Klimov_maps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1090701A25BACD8000065CA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E67C6425BEA6FA00C6B53C /* icon_background.png in Resources */,
+				1090702C25BACD8100065CA2 /* LaunchScreen.storyboard in Resources */,
+				10E67C6125BEA49500C6B53C /* Silom.ttf in Resources */,
+				1090702925BACD8100065CA2 /* Assets.xcassets in Resources */,
+				1090702725BACD8000065CA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1090701825BACD8000065CA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E67C6825BEABB000C6B53C /* MapVC.swift in Sources */,
+				1090702425BACD8000065CA2 /* LocationVC.swift in Sources */,
+				1090702025BACD8000065CA2 /* AppDelegate.swift in Sources */,
+				1090702225BACD8000065CA2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1090702525BACD8000065CA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1090702625BACD8000065CA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1090702A25BACD8100065CA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1090702B25BACD8100065CA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1090702E25BACD8100065CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1090702F25BACD8100065CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1090703125BACD8100065CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Klimov_maps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Klimov-maps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1090703225BACD8100065CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Klimov_maps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kp11.Klimov-maps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1090701725BACD8000065CA2 /* Build configuration list for PBXProject "Klimov_maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1090702E25BACD8100065CA2 /* Debug */,
+				1090702F25BACD8100065CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1090703025BACD8100065CA2 /* Build configuration list for PBXNativeTarget "Klimov_maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1090703125BACD8100065CA2 /* Debug */,
+				1090703225BACD8100065CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1090701425BACD8000065CA2 /* Project object */;
+}
